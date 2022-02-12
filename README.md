@@ -7,4 +7,5 @@
      <li>O código tem 3 partes  a estrutura de dados, o cálculo da intensidade de fogo e a renderização</li>
 </ul>
 
-<img src="Screenshot_73.png" alt="">
+       
+    <img src="Screenshot_73 1.png" alt="">
