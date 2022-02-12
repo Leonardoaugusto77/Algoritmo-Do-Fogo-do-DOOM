@@ -1,13 +1,4 @@
 # Algoritmo-Do-Fogo-do-DOOM 🔥
- <style>
-       img {
-       margin:auto;
-       }
-</style>
-   
-
-
-
 <h5>Detalhes a se destacar no projeto</h5>
 
 <ul>
