@@ -20,7 +20,7 @@ function createFireDataStructure(){
         firePixelsArray[i] = 0
     }
 }
-
+// Fire spread calculation
 function calculateFirePropagation(){
     for(let column = 0; column < fireWidth; column++){
         for(let row = 0; row < fireHeight; row++){
@@ -33,7 +33,7 @@ function calculateFirePropagation(){
     renderFire()
 }
 
-
+// Function responsible for updating the pixel value
 function updateFireIntensityPerPixels(currentPixelIndex){
     const belowPixelIndex = currentPixelIndex + fireWidth
 
@@ -48,6 +48,7 @@ function updateFireIntensityPerPixels(currentPixelIndex){
     firePixelsArray[currentPixelIndex - decay] = newFireIntensity
 }
 
+// Function responsible for rendering fire
 function renderFire(){
     const debug = false
     let html = '<table cellpadding = 0 cellspacing = 0'
@@ -72,7 +73,7 @@ function renderFire(){
                 html += '</td>'
             }
             
-            
+            // A table was dynamically created with JavaScript to represent the data structure
             
         }
 
@@ -86,7 +87,7 @@ function renderFire(){
 
 }
 
-
+// Function responsible for the source of the fire
 function createFireSource(){
     for(let column = 0; column <= fireWidth; column++){
         const overFlowPixelIndex = fireWidth * fireHeight
